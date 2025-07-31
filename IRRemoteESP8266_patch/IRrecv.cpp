@@ -4,6 +4,12 @@
 // Copyright 2017, 2019 David Conran
 // https://github.com/AlexYan001/IRremoteESP8266/tree/main
 
+/*******************************************************************************
+***** This class file adds ESP32 Arduino Core v3.x Timer API compatibility *****
+*****                for IRremoteESP8266 v2.8.6 release                    *****
+*****          https://github.com/macca448/IRremoteESP8266_patch           *****
+*******************************************************************************/
+
 #include "IRrecv.h"
 #include <stddef.h>
 #ifndef UNIT_TEST
