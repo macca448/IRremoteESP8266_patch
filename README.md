@@ -3,7 +3,7 @@
 ###  This patch adds support for the ESP32 Arduino Core v3.x (IDF v5.x)
 
 The current IDE offering of `IRremoteESP8266 (v2.8.6)` does not support `ESP32 Arduino Core 3.x Timer API`.
-The patched version of [`IRrecv.cpp`](https://github.com/macca448/IRremoteESP8266_patch/tree/main/IRRemoteESP8266_patch) offered here will add ESP32 v3.x support.
+This patched version of [IRrecv.cpp](https://github.com/macca448/IRremoteESP8266_patch/tree/main/IRRemoteESP8266_patch) will add ESP32 v3.x support to IRremoteESP8266 (v2.8.6).
 
 ### How to apply this patch  
 
@@ -13,7 +13,7 @@ The patched version of [`IRrecv.cpp`](https://github.com/macca448/IRremoteESP826
 
 <br>
   
-####  2.  Next navigate to `> Documents > Arduino > libraries > IRremoteESP8266 > src` and delete or replace `IRrecv.cpp` with [this](https://github.com/macca448/IRremoteESP8266_patch/tree/main/IRRemoteESP8266_patch) version
+####  2.  Next navigate to `> Documents > Arduino > libraries > IRremoteESP8266 > src` and delete or replace the `IRrecv.cpp` file with this [patched version](https://github.com/macca448/IRremoteESP8266_patch/tree/main/IRRemoteESP8266_patch) 
 
  ![](https://github.com/macca448/IRremoteESP8266_patch/blob/main/assets/images/IRrecv_cpp_location.jpg)
 
