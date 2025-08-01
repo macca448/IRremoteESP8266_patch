@@ -7,7 +7,7 @@ This patched version of [IRrecv.cpp](https://github.com/macca448/IRremoteESP8266
 
 ### How to apply this patch  
 
-####  1.  If you haven't already install IRremoteESP8266 (v2.8.6) via Arduino IDE Library Manager - NOTE: The following image shows an error free compile of my [IR-Blaster](https://github.com/macca448/ESP-IR-Blaster) project using an `ESP32 v3.x` and `IRsend.h` along with current versions of all other included libraries.  
+####  1.  If you haven't already install IRremoteESP8266 (v2.8.6) via Arduino IDE Library Manager - NOTE: The following image shows an error free compile of my [IR-Blaster](https://github.com/macca448/ESP-IR-Blaster) project using `ESP32 v3.x` and `IRsend.h` along with current versions of all other included libraries.  
 
    ![](https://github.com/macca448/IRremoteESP8266_patch/blob/main/assets/images/IDE_compile.jpg)  
 
